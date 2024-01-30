@@ -29,18 +29,10 @@ body {
     background-color: #25470c;
 }
 
-.box:nth-child(11) {
+.box:nth-child(11), :nth-child(13) {
       margin-left: 470px;
 }
 
-.box:nth-child(12) {
-    margin-right: 470px;
-}
-
-.box:nth-child(13) {
-    margin-left: 470px;
-}
-
-.box:nth-child(14) {
+.box:nth-child(12), .box:nth-child(14) {
     margin-right: 470px;
 }
