@@ -38,6 +38,10 @@ body {
     margin-right: 470px;
 }
 
+.box div:hover {
+    cursor: pointer;
+}
+
 .one:hover {
     transform: rotate(45deg);
 }
