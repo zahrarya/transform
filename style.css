@@ -95,6 +95,61 @@ body {
 }
 
 .fifteen:hover {
-    transform-origin: right;
+    transform-origin:top right;
     transform: rotate(45deg);
+}
+
+.sixteen:hover {
+    transform-origin: bottom left;
+    transform: rotate(45deg);
+}
+
+.seventeen:hover {
+    transform-origin: bottom;
+    transform: perspective(450px) rotatex(50deg);
+}
+
+.eighteen:hover {
+    transform-origin: top;
+    transform: perspective(350px) rotatex(50deg);
+}
+
+.nineteen:hover {
+    transform-origin: left;
+    transform: perspective(450px) rotateY(50deg);
+}
+
+.twenty:hover {
+    transform-origin: right;
+    transform: perspective(350px) rotateY(50deg);
+}
+
+.twenty-one:hover {
+    transform-origin: top right;
+    transform: scale(2);
+}
+
+.twenty-two:hover {
+    transform-origin: bottom left;
+    transform: scale(2);
+}
+
+.twenty-three:hover {
+    transform-origin: right;
+    transform: scaleX(2);
+}
+
+.twenty-four:hover {
+    transform-origin: left;
+    transform: scaleX(2);
+}
+
+.twenty-five:hover {
+    transform-origin: top;
+    transform: scaleY(2);
+}
+
+.twenty-six:hover {
+    transform-origin: bottom;
+    transform: scaleY(2);
 }
